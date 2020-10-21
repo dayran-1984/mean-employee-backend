@@ -1,0 +1,27 @@
+###
+GET http://localhost:4000/api/employees
+
+###
+POST http://localhost:4000/api/employees
+Content-Type: application/json
+
+{
+    "name":"Davinson S.",
+    "position":"Jr. Developer",
+    "office":"USA-FL",
+    "salary":"33000"
+}
+
+###
+GET http://localhost:4000/api/employees/5f8e264d73fa3b094c879d34
+
+###
+DELETE http://localhost:4000/api/employees/5f8e24622d25984608821b69
+
+###
+PUT http://localhost:4000/api/employees/5f8e264d73fa3b094c879d34
+Content-Type: application/json
+
+{
+    "salary":"113300"
+}
